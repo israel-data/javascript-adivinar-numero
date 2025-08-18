@@ -1,1 +1,128 @@
+/*
+Autor: -工丂尺闩㠪㇄ ᗪ闩ㄒ闩-
+Creado: Agosto 2025.
+Versión: 1.0.0
+Nombre: Adivinar número secreto.
+Descargado de: https://github.com/israel-data
+ⓘ*/
 
+/* Selector general que aplica atributos a todos los elementos de la página HTML. ⓘ*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+/* Pseudoelemento que inserta contenido y estilo antes de body. ⓘ*/
+body::before {
+    background-image: url("img/code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+/* Aplica los estilo al body en la página HTML. ⓘ*/
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Aplica los estilos en el div "container" principal de la página HTML. ⓘ*/
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 1px solid #1875E8;
+    box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+    background-image: url("img/Ruido.png");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+/* Aplica los estilos en el div "container_contenido" principal de la página HTML. ⓘ*/
+.container__contenido {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+/* Aplica los estilos en el div class"container_informaciones" de la página HTML. ⓘ*/
+.container__informaciones {
+    flex: 1;
+    padding: 3rem;
+}
+
+/* Aplica los estilos en el div class"container_texto" de la página HTML. ⓘ*/
+.container__texto {
+    margin: 16px 0 16px 0;
+}
+
+/* Aplicar los estilos en la etiqueta o tag en la página HTML. ⓘ*/
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+    padding-bottom: 3rem;
+}
+
+/* Aplica los estilos en el div class"container_parrafo" de la página HTML. ⓘ*/
+.texto__parrafo {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* Aplicar los estilos en la etiqueta o tag de parrafo y en button, botones. ⓘ*/
+p, button {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Aplicar los estilos en la etiqueta o tag input, la caja de entrada. ⓘ*/
+.container__input {
+    width: 100%;
+    height: 72px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 2rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Aplica los estilos en el div class"container_botones" de la página HTML. ⓘ*/
+.container__botones {
+    display: flex;
+    gap: 2em;
+}
+
+/* Aplica a cualquier elemento que tenga el atributo "disabled" activado. */
+.container__boton:disabled {
+    background: #898989;
+}
+
+/* Aplicar los estilos en la etiqueta o tags con class "container_boton" de la página HTML. */
+.container__boton {
+    border-radius: 16px;
+    background: #1875E8;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+}
+
+/* ̨̣͕͉̫̜ͅÏ̗̮̪S̖̜͚͉̜̽͌R̞̟͌̊̾̋Ä̤́̂̚E̺̭̹͖͆̈͋̈́̈́͑̋͑͑ͅL̀ D̽Ä̤̝̦́̂̚ȚͬÄ̤́̂̚ ⓘ*/
