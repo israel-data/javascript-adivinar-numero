@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<!-- 
+Autor: -工丂尺闩㠪㇄ ᗪ闩ㄒ闩-
+Creado: Agosto 2025.
+Versión: 1.0.0
+Nombre: Adivinar número secreto.
+Descargado de: https://github.com/israel-data
+ⓘ-->
+<!--Contener principal de datos y metadatos para los motores de busqueda de la página HTML. ⓘ-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Juego de adivinar numero JavaScrip"/>
+    <meta name="keywords" content="JavaScript, Html, CSS"/>
+    <meta name="author" content="-工丂尺闩㠪㇄ ᗪ闩ㄒ闩-">
+    <meta name="copyright" content="-工丂尺闩㠪㇄ ᗪ闩ㄒ闩-" />
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!--Lamar al archivo de stilos CSS. ⓘ-->
+    <link rel="stylesheet" href="style.css">
+    <!--Titulo de la Pagina. ⓘ-->
+    <title>JavaScript Juego</title>
+</head>
+<!--Todo lo visible para el usuario ⓘ-->
+<body>
+
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <!--Etiqueta de encabezado. ⓘ-->
+                    <h1></h1>
+                    <!--Etiqueta de párrafo. ⓘ-->
+                    <p class="texto__parrafo"></p>
+                </div>
+                <!--Campo de entrada para ingresar datos con "id" identificados. ⓘ-->
+                <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
+                <div class="container__botones">
+                    <!--Botones de acciones "onclick" ejecuta funcion en JavaScript. ⓘ-->
+                    <button onclick="verificarIntento();" class="container__boton" id="juego" disabled>Intentar</button>
+                    <!--Botones de acciones "onclick" ejecuta función en JavaScript, "id" identificador y deshabilitado. ⓘ-->
+                    <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
+                </div>
+            </div>
+            <img src="./img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
+        </div>
+    </div>
+    <!--hace referencia al archivo de JavaScript. ⓘ-->
+    <script src="app.js"></script>
+
+</body>
+<!-- ̨̣͕͉̫̜ͅÏ̗̮̪S̖̜͚͉̜̽͌R̞̟͌̊̾̋Ä̤́̂̚E̺̭̹͖͆̈͋̈́̈́͑̋͑͑ͅL̀ D̽Ä̤̝̦́̂̚ȚͬÄ̤́̂̚ ⓘ-->
+</html>
 
