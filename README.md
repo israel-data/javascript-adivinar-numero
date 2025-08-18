@@ -1,6 +1,6 @@
 -Autor: Israel Martínez González.
 
--Estado del proyecto: En construccion.
+-Estado del proyecto: Version 1.0.0.
 
 -Descripcion del Proyecto: Juego adivinar un Numero en JavaScript, HTML y CSS.
 
